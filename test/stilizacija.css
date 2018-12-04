@@ -1,0 +1,97 @@
+/* Heder i futer se brišu (samo raspoznavanje diva)*/
+
+html {
+	font-size: 16px;
+}
+
+body {margin: 0;}
+
+p {
+	min-width: 200px;
+}
+
+#heder {
+	background-color: #ff471a;
+	top: 20px;
+}
+
+#futer {
+	background-color: #1a1a1a;
+	height: 110px;
+	padding-top: 50px;
+	clear: both;
+	color: #bfbfbf;
+
+}
+/* Stilizacija navigation bara*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 750px;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	padding: 12px 56px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	/*padding: 20px, 40px;*/
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: gray;
+}
+
+li. dropdown {
+	display: inline-block;
+}
+
+
+
+/* div naslov koji ide preko diva pozadina */
+
+#naslov h1 {
+	width: 50%;
+	margin-top: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 7rem;
+	color: #bfbfbf;
+}
+
+#pozadina {
+	height: 500px;
+	position: fixed;
+	top: 0;
+	
+	z-index: -1;
+}
+
+/* Deo sa tekstom */
+section {
+	background-color: white;
+	min-height: 450px;
+}
+
+article h2 {
+	margin-top: 5%;
+	margin-left: 45%;
+}
+
+article p {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.stil {
+	background-color: #1a1a1a;
+	color: #bfbfbf;
+}
